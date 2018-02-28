@@ -1,0 +1,889 @@
+/* You may set the width and height of container/section elements in percentages. 
+DO NOT USE PERCENTAGES IN TEXTS AND IMAGES : No responsiveness  */
+
+body {
+	background: #F5F5DC;
+}
+
+#container {
+	width: 1100px;
+	height: 2100px;
+
+	position: relative;
+	left: 50%;
+	margin-left: -550px;
+}
+
+.section {
+	width: 100%;
+	height: 700px;
+}
+
+#first {
+	background: #F5F5DC;
+}
+
+#second {
+	background: #F5F5DC;
+}
+
+#third {
+	background: #F5F5DC;
+}
+
+#fourth{
+	background: #F5F5DC;
+}
+
+p {
+	font-family: 'Monoton', cursive;
+	font-size: 3.5em;
+	color: brown;}
+
+h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+}
+
+#more {
+	position: absolute;
+	left: 100px;
+	top: 150px;
+}
+
+#poc {
+	position: absolute;
+	left: 210px;
+	top: 240px;
+
+}
+
+#in{
+	position: absolute;
+	left: 460px;
+	top: 330px;
+}
+
+#everything {
+	position: absolute;
+	left: 555px;
+	top: 330px;
+}
+
+
+.anim1 {
+  animation: anim1_equalize 1s cubic-bezier(1,1,1,1);
+  animation-delay: 1s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+}
+
+@keyframes anim1_equalize {
+  0%  { width: 0px; opacity: 0;}
+  100% { width: 114px; opacity: 1;}
+}
+
+#m1{
+	width: 111px;
+	height: 2.5px;
+	background: brown;
+	position: absolute;
+	top: 153px;
+	left: 0px;
+}
+
+.anim {
+  animation: anim_equalize 1s cubic-bezier(1,1,1,1);
+  animation-delay: 1s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+}
+
+@keyframes anim_equalize {
+  0%  { width: 0px; opacity: 0;}
+  100% { width: 105px; opacity: 1;}
+}
+
+#m2 {
+	width: 105px;
+	height: 2.5px;
+	background: brown;
+	position: absolute;
+	top: 158px;
+	left: 0px;
+}
+
+#m3 {
+	width: 105px;
+	height: 2.5px;
+	background: brown;
+	position: absolute;
+	top: 163px;
+	left: 0px;
+}
+
+
+.anie {
+  animation: anie_equalize 1s cubic-bezier(1,1,1,1);
+  animation-delay: 1s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+
+}
+
+@keyframes anie_equalize {
+  0%  { height: 0px; opacity: 0}
+  100% { height: 155px; opacity: 1;}
+}
+
+#e1{
+	width: 2.5px;
+	height: 155px;
+	background: brown;
+	position: absolute;
+	top: 0px;
+	left: 253px;
+}
+
+#e2{
+	width: 2.5px;
+	height: 155px;
+	background: brown;
+	position: absolute;
+	top: 0px;
+	left: 257px;
+}
+
+#e3{
+	width: 2.5px;
+	height: 155px;
+	background: brown;
+	position: absolute;
+	top:0px;
+	left: 261px;
+}
+
+.anip {
+  animation: anip_equalize 1s cubic-bezier(1,1,1,1);
+  animation-delay: 1s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+
+}
+
+@keyframes anip_equalize {
+  0%  { height: 0px; opacity: 0}
+  100% { height: 150px; opacity: 1;}
+}
+
+#p1{
+	width: 2.5px;
+	height: 150px;
+	background: brown;
+	position: absolute;
+	top: 287px;
+	left: 212px;
+}
+
+#p2{
+	width: 2.5px;
+	height: 150px;
+	background: brown;
+	position: absolute;
+	top: 287px;
+	left: 216px;
+}
+
+#p3{
+	width: 2.5px;
+	height: 150px;
+	background: brown;
+	position: absolute;
+	top: 287px;
+	left: 220px;
+}
+
+.anipp {
+  animation: anipp_equalize 1s cubic-bezier(1,1,1,1);
+  animation-delay: 2s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+
+}
+
+@keyframes anipp_equalize {
+  0%  { width: 0px; opacity: 0}
+  100% { width: 261px; opacity: 1;}
+}
+
+#pp1{
+	width: 261px;
+	height: 2.5px;
+	background: brown;
+	position: absolute;
+	top: 429px;
+	left: 212px;
+}
+
+#pp2{
+	width: 261px;
+	height: 2.5px;
+	background: brown;
+	position: absolute;
+	top: 433px;
+	left: 212px;
+}
+
+#pp3{
+	width: 261px;
+	height: 2.5px;
+	background: brown;
+	position: absolute;
+	top: 437px;
+	left: 212px;
+}
+
+.aniee {
+  animation: aniee_equalize 1s cubic-bezier(1,1,1,1);
+  animation-delay: 2s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+
+}
+
+@keyframes aniee_equalize {
+  0%  { width: 0px; opacity: 0}
+  100% { width: 271px; opacity: 1;}
+}
+
+#e4{
+	width: 271px;
+	height: 2.5px;
+	background: brown;
+	position: absolute;
+	top: 188px;
+	left: 268px;
+}
+
+#e5{
+	width: 271px;
+	height: 2.5px;
+	background: brown;
+	position: absolute;
+	top: 192px;
+	left: 268px;
+}
+
+#e6{
+	width: 271px;
+	height: 2.5px;
+	background: brown;
+	position: absolute;
+	top: 196px;
+	left: 268px;
+}
+
+.anii {
+  animation: anii_equalize 1s cubic-bezier(1,1,1,1);
+  animation-delay: 3s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+
+}
+
+@keyframes anii_equalize {
+  0%  {height: 0px; opacity: 0}
+  100% {height: 105px; opacity: 1}
+}
+
+#i1{
+	width: 2.5px;
+	height: 105px;
+	background: brown;
+	position: absolute;
+	top: 333px;
+	left: 462px;
+}
+
+#i2{
+	width: 2.5px;
+	height: 105px;
+	background: brown;
+	position: absolute;
+	top: 333px;
+	left: 466px;
+}
+
+#i3{
+	width: 2.5px;
+	height: 105px;
+	background: brown;
+	position: absolute;
+	top: 333px;
+	left: 470px;
+}
+
+.anif {
+  animation: anif_equalize 1s cubic-bezier(1,1,1,1);
+  animation-delay: 3s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+
+}
+
+@keyframes anif_equalize {
+  0%  {height: 0px; opacity: 0}
+  100% {height: 57px; opacity: 1}
+}
+
+
+#f1{
+	width: 2.5px;
+	height: 57px;
+	background: brown;
+	position: absolute;
+	top: 188px;
+	left: 531px;
+}
+
+#f2{
+	width: 2.5px;
+	height: 57px;
+	background: brown;
+	position: absolute;
+	top: 188px;
+	left: 535px;
+}
+
+#f3{
+	width: 2.5px;
+	height: 57px;
+	background: brown;
+	position: absolute;
+	top: 188px;
+	left: 539px;
+}
+
+.anil {
+  animation: anil_equalize 1s cubic-bezier(1,1,1,1);
+  animation-delay: 3s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+
+}
+
+@keyframes anil_equalize {
+  0%  { height: 0px; opacity: 0}
+  100% { height: 290px; opacity: 1;}
+}
+
+#l1{
+	width: 2.5px;
+	height: 290px;
+	background: brown;
+	position: absolute;
+	top: 0px;
+	left: 675px;
+}
+
+#l2{
+	width: 2.5px;
+	height: 290px;
+	background: brown;
+	position: absolute;
+	top: 0px;
+	left: 679px;
+}
+
+#l3{
+	width: 2.5px;
+	height: 290px;
+	background: brown;
+	position: absolute;
+	top: 0px;
+	left: 683px;
+}
+
+
+.anir {
+  animation: anir_equalize 1s cubic-bezier(1,1,1,1);
+  animation-delay: 1s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+
+}
+
+@keyframes anir_equalize {
+  0%  { height: 0px; opacity: 0}
+  100% { height: 26px; opacity: 1;}
+}
+
+#r1{
+	width: 2.5px;
+	height: 26px;
+	background: brown;
+	position: absolute;
+	top: 287px;
+	left: 762px;
+}
+
+#r2{
+	width: 2.5px;
+	height: 26px;
+	background: brown;
+	position: absolute;
+	top: 287px;
+	left: 766px;
+}
+
+#r3{
+	width: 2.5px;
+	height: 26px;
+	background: brown;
+	position: absolute;
+	top: 287px;
+	left: 770px;
+}
+
+.anirn {
+  animation: anirn_equalize 1s cubic-bezier(1,1,1,1);
+  animation-delay: 2s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+
+}
+
+@keyframes anirn_equalize {
+  0%  { width: 0px; opacity: 0}
+  100% { width: 160px; opacity: 1;}
+}
+
+#rn1{
+	width: 160px;
+	height: 2.5px;
+	background: brown;
+	position: absolute;
+	top: 302px;
+	left: 762px;
+}
+
+#rn2{
+	width: 160px;
+	height: 2.5px;
+	background: brown;
+	position: absolute;
+	top: 306px;
+	left: 762px;
+}
+
+#rn3{
+	width: 160px;
+	height: 2.5px;
+	background: brown;
+	position: absolute;
+	top: 310px;
+	left: 762px;
+}
+
+.anin {
+  animation: anin_equalize 1s cubic-bezier(1,1,1,1);
+  animation-delay: 3s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+
+}
+
+@keyframes anin_equalize {
+  0%  { height: 0px; opacity: 0}
+  100% { height: 32px; opacity: 1;}
+}
+
+#n1{
+	width: 2.5px;
+	height: 32px;
+	background: brown;
+	position: absolute;
+	top: 302px;
+	left: 913px;
+}
+
+#n2{
+	width: 2.5px;
+	height: 32px;
+	background: brown;
+	position: absolute;
+	top: 302px;
+	left: 917px;
+}
+
+#n3{
+	width: 2.5px;
+	height: 32px;
+	background: brown;
+	position: absolute;
+	top: 302px;
+	left: 921px;
+}
+
+.anig {
+  animation: anig_equalize 1s cubic-bezier(1,1,1,1);
+  animation-delay: 4s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+
+}
+
+@keyframes anig_equalize {
+  0%  { width: 0px; opacity: 0}
+  100% { width: 153px; opacity: 1;}
+}
+
+#g1{
+	width: 150px;
+	height: 2.5px;
+	background: brown;
+	position: absolute;
+	top: 369px;
+	left: 977px;
+}
+
+#g2{
+	width: 153px;
+	height: 2.5px;
+	background: brown;
+	position: absolute;
+	top: 373px;
+	left: 977px;
+}
+
+#g3{
+	width: 153px;
+	height: 2.5px;
+	background: brown;
+	position: absolute;
+	top: 377px;
+	left: 966px;
+}
+
+.aniy {
+  animation: aniy_equalize 1s cubic-bezier(1,1,1,1);
+  animation-delay: 5s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+
+}
+
+@keyframes aniy_equalize {
+  0%  { height: 0px; opacity: 0}
+  100% { height: 150px; opacity: 1;}
+}
+
+#y1{
+	width: 2.5px;
+	height: 150px;
+	background: brown;
+	position: absolute;
+	top: 378px;
+	left: 749px;
+}
+
+#y2{
+	width: 2.5px;
+	height: 150px;
+	background: brown;
+	position: absolute;
+	top: 378px;
+	left: 753px;
+}
+
+#y3{
+	width: 2.5px;
+	height: 150px;
+	background: brown;
+	position: absolute;
+	top: 378px;
+	left: 757px;
+}
+
+
+
+.arrow {
+	position: relative;
+	top: 532px;
+	left: 735px;
+	animation: bounce 2s alternate infinite cubic-bezier(.65,.05,.36,1);
+	animation-delay: 6s;
+	opacity: 0;
+} 
+
+@keyframes bounce{
+	0%{top: 532px; opacity: 1}
+	100% {top: 562px; opacity: 1}
+}
+
+
+
+
+#vanity{
+	position: relative;
+	width: 570px;
+	height: 350px;
+	top: 100px;
+	left: 80px;
+}
+
+#media{
+	font-size: 2.5em;
+	position: absolute;
+	top: 950px;
+	left: 790px;
+}
+
+#infomedia{
+	position: relative;
+	left: 80px;
+	margin-right: 508px;
+	top: 110px;
+}
+
+
+.medialines {
+	animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+	0%, 100% { width: 80px; left: 830px; }
+	50% { width: 0px; left: 870px; }
+}
+
+
+#med1{
+	width: 80px;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	top: 910px;
+	left: 830px;
+}
+
+#med2{
+	width: 80px;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	top: 914px;
+	left: 830px;
+}
+
+#med3{
+	width: 80px;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	top: 918px;
+	left: 830px;
+}
+
+
+#med4{
+	width: 80px;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	top: 1025px;
+	left: 830px;
+}
+
+#med5{
+	width: 80px;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	top: 1029px;
+	left: 830px;
+}
+
+#med6{
+	width: 80px;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	top: 1033px;
+	left: 830px;
+}
+
+
+#pencils{
+	position: relative;
+	width: 570px;
+	height: 350px;
+	top: 0px;
+	left: 450px;
+}
+
+#education{
+	font-size: 2.5em;
+	position: absolute;
+	top: 1550px;
+	left: 80px;
+}
+
+#infoedu{
+	position: relative;
+	margin-left: 450px;
+	margin-right: 60px;
+	top: 10px;
+}
+
+.edulines {
+	animation: edulines_pulse 5s infinite;
+}
+
+@keyframes edulines_pulse {
+	0%, 100% { width: 80px; left: 190px; }
+	50% { width: 0px; left: 230px; }
+}
+
+#ed1{
+	width: 80px;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	top: 1500px;
+	left: 190px;
+}
+
+#ed2{
+	width: 80px;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	top: 1504px;
+	left: 190px;
+}
+
+#ed3{
+	width: 80px;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	top: 1508px;
+	left: 190px;
+}
+
+#ed4{
+	width: 80px;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	top: 1615px;
+	left: 190px;
+}
+
+#ed5{
+	width: 80px;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	top: 1619px;
+	left: 190px;
+}
+
+#ed6{
+	width: 80px;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	top: 1623px;
+	left: 190px;
+}
+
+
+#trump{
+	position: relative;
+	width: 570px;
+	height: 350px;
+	top: -10px;
+	left: 80px;
+}
+
+#government{
+	font-size: 2.5em;
+	position: absolute;
+	top: 2250px;
+	left: 720px;
+}
+
+#infogov{
+	position:relative;
+	left: 80px;
+	margin-right: 508px;
+	top: 5px;
+}
+
+.govlines {
+	animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+	0%, 100% { width: 80px; left: 830px; }
+	50% { width: 0px; left: 870px; }
+}
+
+
+#gov1{
+	width: 80px;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	top: 2200px;
+	left: 830px;
+}
+
+#gov2{
+	width: 80px;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	top: 2204px;
+	left: 830px;
+}
+
+#gov3{
+	width: 80px;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	top: 2208px;
+	left: 830px;
+}
+
+#gov4{
+	width: 80px;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	top: 2325px;
+	left: 830px;
+}
+
+#gov5{
+	width: 80px;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	top: 2329px;
+	left: 830px;
+}
+
+#gov6{
+	width: 80px;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	top: 2333px;
+	left: 830px;
+}
+
+
+
